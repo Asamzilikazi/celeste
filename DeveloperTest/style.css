@@ -1,0 +1,86 @@
+@import url(http://fonts.googleapis.com/css?family=Fauna+One|Muli);
+/*//to load google fonts in our page.*/
+#form{
+background-color:white;
+color:#123456;
+box-shadow:0px 1px 1px 1px gray;
+font-Weight:400;
+width:400px;
+margin:50px 250px 0 50px;
+float:left;
+height:100%;
+}
+#form div{
+padding:10px 0 0 30px;
+}
+h3{
+margin-top:0px;
+color:white;
+background-color:forestgreen;
+text-align:center;
+width:100%;
+height:50px;
+padding-top:30px;
+}
+#mainform{
+width:960px;
+margin:20px auto;
+padding-top:20px;
+font-family: 'Fauna One', serif;
+}
+#mainform h2{
+width:100%; float:left;
+}
+input{
+width:90%;
+height:30px;
+margin-top:10px;
+border-radius:3px;
+padding:2px;
+box-shadow:0px 1px 1px 0px darkgray;
+}
+select{
+    width:90%;
+    height:30px;
+    margin-top:10px;
+    border-radius:3px;
+    padding:2px;
+    box-shadow:0px 1px 1px 0px darkgray;
+    font-size:18px;
+    }
+.innerdiv{
+width:65%; float:left;
+}
+input[type=button]{
+background-color:forestgreen;
+border:1px solid white;
+font-family: 'Fauna One', serif;
+font-Weight:bold;
+font-size:18px;
+color:white;
+}
+#clear{clear:both;
+}
+
+#formget{
+float:right;
+width:30%;
+margin-top:30px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    }
+    .table-row{
+    cursor:pointer;
+    }
+    td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    }
+
+    tr:nth-child(even) {
+    background-color: #dddddd;
+    }
